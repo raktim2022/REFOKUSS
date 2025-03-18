@@ -4,31 +4,31 @@ import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 const Work = () => {
   const [images, setimages] = useState([
     {
-      url: "https://plus.unsplash.com/premium_photo-1661629259850-9a893425f1f5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      url: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3",
       top: "45%",
       left: "56%",
       isActive: false,
     },
     {
-      url: "https://plus.unsplash.com/premium_photo-1661297491323-ef16c1da1fec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      url: "https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3",
       top: "50%",
       left: "50%",
       isActive: false,
     },
     {
-      url: "https://plus.unsplash.com/premium_photo-1661629259850-9a893425f1f5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      url: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3",
       top: "56%",
       left: "44%",
       isActive: false,
     },
     {
-      url: "https://images.unsplash.com/photo-1592323731803-7c1fc65b1666?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      url: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3",
       top: "69%",
       left: "63%",
       isActive: false,
     },
     {
-      url: "https://images.unsplash.com/photo-1599729823140-48447e72c14b?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      url: "https://images.unsplash.com/photo-1439405326854-014607f694d7?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3",
       top: "63%",
       left: "53%",
       isActive: false,
